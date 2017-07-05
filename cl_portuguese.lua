@@ -1,26 +1,14 @@
 --- OAS:History
 ----- 
---- English language file
+--- Portuguese language file
 -----
 
 History.Languages["portuguese"] =
 {   
-    ---
-    --- NOTE: naming conventions will lose consistency when related
-    --- to settings.  Setting names are translated here.
-    ---
 
-    ---- INTERNAL
-    -- used only for changing languages
-    -- and displaying current language
     thisLanguage            = "Português - BR",
     thisLanguageShort       = "PTBR",
 
-
-    ---- TIME 
-    -- used by History.TimeString and other things
-    -- not all languages have the same way of pluralizing things
-    -- so we need an entry for both pluralized and single
     timeSecond  = "segundo", 
     timeSeconds = "segundos",
     timeMinute  = "minuto",
@@ -35,9 +23,6 @@ History.Languages["portuguese"] =
     timeYears   = "anos",
 
 
-    ---- DROPDOWN ITEMS
-    -- Any text that appears on a dropdown as a button, 
-    -- list or list's children should be here
     ddItemSnapshots         = "Simulações",
         ddItemRequest           = "Pedido",
             ddItemPresets           = "Definições",
@@ -86,20 +71,14 @@ History.Languages["portuguese"] =
     ddItemPerformance       = "Performance",
         ddItemStatistics        = "Estatísticas",
 
-    ---- BUTTONS
-    -- text used for buttons, pretty much any buttons anywhere
+
     btnClose        = "Fechar",
     btnCancel       = "Cancelar",
     btnDownload     = "Baixar",
     btnPromptBind   = "Pressione alguma tecla",
     btnPromptDelete = "Você tem certeza? Clique novamente para excluir",
 
-    ---- ERRORS
-    -- error text that is displayed anywhere.  Debug prints are always in english
-    -- and do not use the language system.  Errors shown here will only be on UI elements
-    -- or notifications
 
-    -- Range A: snapshot request errors
     errCodeA0001 = "Tempo final maior que o tempo inicial",
     errCodeA0002 = "Tempo final está no futuro",
     errCodeA0003 = "O ponto inicial está faltando no arquivo",
@@ -107,17 +86,14 @@ History.Languages["portuguese"] =
     errCodeA0005 = "Tempo inicial é muito cedo",
     errCodeA0005 = "Snapshot already downloaded",
 
-    -- Range B: download errors
     errCodeB0001 = "erro no disco/arquivo",
     errCodeB0002 = "erro de autentificação/interno",
     errCodeB0003 = "erro na api/interno",
 
-    -- Range C: playback errors
     errCodeC0001 = "ERRO FATAl: O tipo de instante %i é desconhecido (simulação corrompida)",
     errCodeC0002 = "ERRO FATAl: Numero de eventos <= 0 (simulação corrompida)",
     errCodeC0003 = "ERRO FATAl: ID do evento desconhecido (simulação corrompida)",
 
-    -- Range D: sync errors
     errCodeD0001 = "ERRO FATAl, autentificação falhou",
     errCodeD0002 = "ERRO FATAl, a tabela do servidor %s não existe",
     errCodeD0003 = "ERRO FATAl, ID do arquivo é desconhecido",
@@ -125,14 +101,11 @@ History.Languages["portuguese"] =
     errCodeD0005 = "ERRO FATAl, não é possível acessar o arquivo do historico/pseudoentitytable.dat",
     errCodeD0006 = "ERRO FATAl, não é possível acessar o arquivo do historico/maphistory.dat",
 
-    ---- POPUP
-    -- text used in popup windows
 
     popRequestEnd    = "Fim",
     popRequestStart  = "Começar",
     popRequestTitle  = "Snapshot Request (%s)",
 
-    -- All strings used as headers in displaydata popup
     popKeyTime          = "Tempo",
     popKeyName          = "Nome",
     popKeyModel         = "Modelo",
@@ -164,8 +137,7 @@ History.Languages["portuguese"] =
     popKeyToolMode      = "Modo da Ferramenta",
     popKeyTarget        = "Alvo",
 
-    ---- EVENT
-    -- any strings related to events
+
     eventTypeGunshot        = "Tiros de Arma",
     eventTypeDeath          = "Mortes do Jogador",
     eventTypePSpawn         = "Nascimentos do Jogador",
@@ -176,11 +148,6 @@ History.Languages["portuguese"] =
     eventTypeTTTEquipment   = "TTT Compra de Equipamentos",
     eventTypeDarkRPBuy      = "DarkRP Compras",
 
-
-    ---- NOTIFICATIONS
-    -- any string related to notifications in the bottom right or top right
-    -- corners of the screen.  Note that errors from above can also appear as 
-    -- notifications.
 
     noteDownloading         = "Baixando %s",
     noteDownloadCanceled    = "%s download cancelado",
@@ -197,8 +164,7 @@ History.Languages["portuguese"] =
     noteValidationFailed    = "$s a validação falhou",
     noteValidationComplete  = "%s validação completa",
 
-    ---- PLAYBACK
-    -- strings used on the playback toolbar at the bottom of the screen
+
     playbackSimCurTime      = "Tempo atual da simulação: %s",
     playbackCurTick         = "Instante atual: %i",
     playbackSimTicks        = "Instantes simulados: %i",
