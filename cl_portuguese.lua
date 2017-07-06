@@ -84,7 +84,7 @@ History.Languages["portuguese"] =
     errCodeA0003 = "O ponto inicial está faltando no arquivo",
     errCodeA0004 = "Ponto final está faltando no arquivo",
     errCodeA0005 = "Tempo inicial é muito cedo",
-    errCodeA0005 = "Snapshot already downloaded",
+    errCodeA0005 = "Simulação já foi baixada",
 
     errCodeB0001 = "erro no disco/arquivo",
     errCodeB0002 = "erro de autentificação/interno",
@@ -104,7 +104,7 @@ History.Languages["portuguese"] =
 
     popRequestEnd    = "Fim",
     popRequestStart  = "Começar",
-    popRequestTitle  = "Snapshot Request (%s)",
+    popRequestTitle  = "Salvar Simulação (%s)",
 
     popKeyTime          = "Tempo",
     popKeyName          = "Nome",
@@ -156,7 +156,7 @@ History.Languages["portuguese"] =
 
     notePlaybackMD1         = "Nota: Esse ponto na reprodução foi marcado como faltando, provavel que o servidor estava fechado",
     notePlaybackMD2         = "A reprodução de entidades foi limpa e a reprodução foi pausada, pressione iniciar para continuar",
-    notePlaybackMD3         = "O tempo fechado é de aproximadamente %s",
+    notePlaybackMD3         = "Tempo fechado é de aproximadamente %s",
 
     noteClickToPlay         = "Clique para jogar %s",
 
