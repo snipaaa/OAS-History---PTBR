@@ -25,7 +25,7 @@ History.Languages["portuguese"] =
 
     ddItemSnapshots         = "Simulações",
         ddItemRequest           = "Pedido",
-            ddItemPresets           = "Definições",
+            ddItemPresets           = "Predefinições",
                 ddItemLastX             = "Último %s",
             ddItemSpecificTime      = "Tempo Específico",
         ddItemDelete            = "Apagar",
