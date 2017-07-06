@@ -23,7 +23,7 @@ History.Languages["portuguese"] =
     timeYears   = "anos",
 
 
-    ddItemSnapshots         = "Simulações",
+    ddItemSnapshots         = "Gravação",
         ddItemRequest           = "Pedido",
             ddItemPresets           = "Predefinições",
                 ddItemLastX             = "Último %s",
@@ -84,27 +84,27 @@ History.Languages["portuguese"] =
     errCodeA0003 = "O ponto inicial está faltando no arquivo",
     errCodeA0004 = "Ponto final está faltando no arquivo",
     errCodeA0005 = "Tempo inicial é muito cedo",
-    errCodeA0005 = "Simulação já foi baixada",
+    errCodeA0005 = "Gravação já foi baixada",
 
     errCodeB0001 = "erro no disco/arquivo",
     errCodeB0002 = "erro de autentificação/interno",
     errCodeB0003 = "erro na api/interno",
 
-    errCodeC0001 = "ERRO FATAl: O tipo de quadro %i é desconhecido (simulação corrompida)",
-    errCodeC0002 = "ERRO FATAl: Numero de eventos <= 0 (simulação corrompida)",
-    errCodeC0003 = "ERRO FATAl: ID do evento desconhecido (simulação corrompida)",
+    errCodeC0001 = "ERRO FATAl: O tipo de quadro %i é desconhecido (gravação corrompida)",
+    errCodeC0002 = "ERRO FATAl: Numero de eventos <= 0 (gravação corrompida)",
+    errCodeC0003 = "ERRO FATAl: ID do evento desconhecido (gravação corrompida)",
 
     errCodeD0001 = "ERRO FATAl, autentificação falhou",
     errCodeD0002 = "ERRO FATAl, a tabela do servidor %s não existe",
     errCodeD0003 = "ERRO FATAl, ID do arquivo é desconhecido",
     errCodeD0004 = "ERRO FATAl, não é possível acessar o arquivo %s",
-    errCodeD0005 = "ERRO FATAl, não é possível acessar o arquivo do historico/pseudoentitytable.dat",
-    errCodeD0006 = "ERRO FATAl, não é possível acessar o arquivo do historico/maphistory.dat",
+    errCodeD0005 = "ERRO FATAl, não é possível acessar o arquivo do history/pseudoentitytable.dat",
+    errCodeD0006 = "ERRO FATAl, não é possível acessar o arquivo do history/maphistory.dat",
 
 
     popRequestEnd    = "Fim",
     popRequestStart  = "Começar",
-    popRequestTitle  = "Salvar Simulação (%s)",
+    popRequestTitle  = "Salvar Gravação (%s)",
 
     popKeyTime          = "Tempo",
     popKeyName          = "Nome",
@@ -138,7 +138,7 @@ History.Languages["portuguese"] =
     popKeyTarget        = "Alvo",
 
 
-    eventTypeGunshot        = "Tiros de Arma",
+    eventTypeGunshot        = "Tiros da Arma",
     eventTypeDeath          = "Mortes do Jogador",
     eventTypePSpawn         = "Nascimentos do Jogador",
     eventTypeDamage         = "Dano do Jogador",
@@ -165,7 +165,7 @@ History.Languages["portuguese"] =
     noteValidationComplete  = "%s validação completa",
 
 
-    playbackSimCurTime      = "Tempo atual da simulação: %s",
+    playbackSimCurTime      = "Tempo atual da gravação: %s",
     playbackCurTick         = "Quadro atual: %i",
     playbackSimTicks        = "Quadros simulados: %i",
     playbackEventCount      = "Quantidade de eventos: %i",
