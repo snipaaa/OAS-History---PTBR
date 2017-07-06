@@ -90,7 +90,7 @@ History.Languages["portuguese"] =
     errCodeB0002 = "erro de autentificação/interno",
     errCodeB0003 = "erro na api/interno",
 
-    errCodeC0001 = "ERRO FATAl: O tipo de instante %i é desconhecido (simulação corrompida)",
+    errCodeC0001 = "ERRO FATAl: O tipo de quadro %i é desconhecido (simulação corrompida)",
     errCodeC0002 = "ERRO FATAl: Numero de eventos <= 0 (simulação corrompida)",
     errCodeC0003 = "ERRO FATAl: ID do evento desconhecido (simulação corrompida)",
 
@@ -166,8 +166,8 @@ History.Languages["portuguese"] =
 
 
     playbackSimCurTime      = "Tempo atual da simulação: %s",
-    playbackCurTick         = "Instante atual: %i",
-    playbackSimTicks        = "Instantes simulados: %i",
+    playbackCurTick         = "Quadro atual: %i",
+    playbackSimTicks        = "Quadros simulados: %i",
     playbackEventCount      = "Quantidade de eventos: %i",
     playbackBytesRead       = "Bytes lidos: %s/%s",
     playbackDiskUsage       = "Uso de disco: %s/s",
